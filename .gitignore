@@ -1,0 +1,54 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+newenv/          # your virtual environment
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# ---------------------
+# Environment & Config
+# ---------------------
+*.env
+.env.*
+config.py        # contains API keys (Twilio, OpenAI, etc.)
+
+# ---------------------
+# Logs & Cache
+# ---------------------
+*.log
+*.out
+*.err
+logs/
+.cache/
+*.DS_Store
+
+# ---------------------
+# VS Code
+# ---------------------
+.vscode/
+.settings/
+
+# ---------------------
+# OS
+# ---------------------
+Thumbs.db
+.DS_Store
+
+# ---------------------
+# Other
+# ---------------------
+__MACOSX
